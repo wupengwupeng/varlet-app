@@ -1,0 +1,33 @@
+{
+	// "tabBar":{
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#3cc51f",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 		"pagePath": "pages/home/index",
+	// 		"iconPath": "static/logo.png",
+	// 		"selectedIconPath": "../dist/dev/app/__uniappsuccess.png",
+	// 		"text": "组件"
+	// 	},
+	// 	{
+	// 		"pagePath":"pages/about/index",
+	// 		"text":"about",
+	// 		"iconPath":"static/logo.png",
+	// 		"selectedIconPath":"../dist/dev/app/__uniapperror.png"
+	// 	}]
+	// },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index"
+	},
+		{
+			"path":"pages/about/index"
+		}
+	],
+	"globalStyle": {
+		"navigationStyle":"custom"
+
+	}
+}
+
